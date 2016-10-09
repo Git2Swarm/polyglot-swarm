@@ -5,6 +5,10 @@ from flask import jsonify
 import requests
 import json
 import os
+import datetime
+
+hitCount = 0
+startTime = datetime.datetime.now().strftime("%Y-%b-%d %H:%M:%S")
 
 app = Flask(__name__)
 
