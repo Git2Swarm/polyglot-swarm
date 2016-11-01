@@ -10,7 +10,8 @@ class InfoController < ApplicationController
                   "Hostname" => "#{Socket.gethostname}",
                   "Local Address" => "#{request.host}",
                   "Remote Address" => "#{request.remote_ip}",
-                  "Hit Count" => "#{$hitcount}"
+                  "Hit Count" => "#{$hitcount}",
+                  "Purpose" => "Demo for Mike"
                  }
   end
 end
