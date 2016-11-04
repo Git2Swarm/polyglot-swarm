@@ -36,8 +36,8 @@ def send_json() :
                      'Hostname': socket.gethostname(),
                      'LocalAddress': socket.gethostbyname(socket.gethostname()),
                      'RemoteAddress':  request.remote_addr,
-                     'Server Hit': str(hitCount)},
-                     'Application Name':  'Python Application')
+                     'Server Hit': str(hitCount),
+                     'Application Name':  'Python Application' } )
 
 if __name__ == "__main__":
     app.run(debug = True, host = '0.0.0.0')
