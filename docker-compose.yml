@@ -4,3 +4,9 @@ services:
     railsapp:
         image: ${DOCKER_HUB_USER}/railsapp
         build: railsapp
+    pythonapp:
+        image: ${DOCKER_HUB_USER}/pythonapp
+        build: pythonapp
+    flaskapp:
+        image: ${DOCKER_HUB_USER}/flaskapp
+        build: flaskapp
